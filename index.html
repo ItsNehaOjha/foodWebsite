@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Website</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <div class="container">
-        <nav>
-            <div class="logo">
-                <h1>FreshMenu</h1>
+        <section id="header">
+            <a href="#"> <span class="logo">FreshMenu</span></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#food">Foods</a></li>
+                    <li><a href="#trend">Trends</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                </ul>
             </div>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#food">Foods</a></li>
-                <li><a href="#trend">Trends</a></li>
-                <li><a href="#review">Reviews</a></li>
-                <li><a href="#blog">Blog</a></li>
+            <div id="mobile">
                 <i id="bar" class="fa-solid fa-bars"></i>
-
-            </ul>
-        </nav>
+            </div>
+        </section>
+        
         <div class="main">
             <div class="mainText">
                 <h1>Discover the Best Food & <br> Drinks in FreshMenu</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                 Perferendis incidunt officiis, vitae corporis ipsum optio <br> architecto maxime doloremque facere dicta!                </p>
+                 Perferendis incidunt officiis, vitae corporis ipsum optio <br> architecto maxime doloremque facere dicta! </p>
                 <button>Explore Foods</button>
             </div>
             <img src="pizza.jpg" alt="pizza">
